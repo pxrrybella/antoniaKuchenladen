@@ -21,3 +21,41 @@ font-family: 'Playfair Display', serif;*/
   font-size: 5rem;
   font-family: 'Playfair Display', serif;
 }
+
+@media screen and (max-device-width: 600px) {
+  .text-center-sm{
+    text-align: center;
+  }
+}
+
+.animate {
+  animation-duration: 0.75s;
+  animation-delay: 0.5s;
+  animation-name: animate-fade;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-fill-mode: backwards;
+}
+
+/* Glow In */
+.animate.glow {
+  animation-name: animate-glow;
+  animation-timing-function: ease;
+}
+
+@keyframes animate-glow {
+  0% {
+    opacity: 0;
+    filter: brightness(3) saturate(3);
+    transform: scale(0.8, 0.8);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+    transform: scale(1, 1);
+  }
+}
+
+.hover:hover {
+  transform: scale(0.96, 0.96);
+  transition: transform 0.2s;
+}
