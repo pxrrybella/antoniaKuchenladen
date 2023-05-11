@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, IconDesc, Products } from "../components";
+import { Navbar, IconDesc, Products, Footer } from "../components";
 import '../index';
 
 const HomePage = () => {
@@ -8,6 +8,7 @@ const HomePage = () => {
             <Navbar/>
             <Products/>
             <IconDesc/>
+            <Footer/>
         </React.Fragment>
     )
 }

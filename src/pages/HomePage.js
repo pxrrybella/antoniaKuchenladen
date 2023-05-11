@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, HomeBanner, HomeSection, HomeDesc, IconDesc } from "../components";
+import { Navbar, HomeBanner, HomeSection, HomeDesc, IconDesc, Footer } from "../components";
 import '../index';
 
 const HomePage = () => {
@@ -12,6 +12,7 @@ const HomePage = () => {
             </div>
             <IconDesc/>
             <HomeDesc/>
+            <Footer/>
         </React.Fragment>
     )
 }

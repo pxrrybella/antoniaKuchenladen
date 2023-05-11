@@ -4,6 +4,8 @@ import HomeSection from "./HomeSection";
 import HomeDesc from "./HomeDesc";
 import IconDesc from "./IconDesc";
 import Products from "./Products";
+import AboutMe from "./AboutMe";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -11,5 +13,7 @@ export {
     HomeSection,
     HomeDesc,
     IconDesc,
-    Products
+    Products,
+    AboutMe,
+    Footer
 }

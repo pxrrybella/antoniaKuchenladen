@@ -26,6 +26,10 @@ font-family: 'Playfair Display', serif;*/
   .text-center-sm{
     text-align: center;
   }
+
+  .about-me-text{
+    width: 60%;
+  }
 }
 
 .animate {
